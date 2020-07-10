@@ -1,0 +1,38 @@
+DICI - Document Image Cluster Inspector
+Also known as "a weirdly spelled 600"
+
+This system consists in several parts:
+- the embedding generator, which is based on
+  https://github.com/seuretm/ocrd_typegroups_classifier/
+- the projection system to turn the multidimensional data into
+  2D data
+- the viewer itself
+
+Each of these parts can be started using one of the source codes which
+file names start with "run_".
+
+The sample data required for running this out of the box can be found
+at the following address:
+https://doi.org/10.5281/zenodo.3938478
+
+The following python packages might be required:
+cycler==0.10.0
+future==0.18.2
+joblib==0.15.1
+kiwisolver==1.2.0
+matplotlib==3.2.1
+numpy==1.18.5
+opencv-python==4.2.0.34
+Pillow==7.1.2
+pyparsing==2.4.7
+PyQt5==5.15.0
+PyQt5-sip==12.8.0
+python-dateutil==2.8.1
+scikit-learn==0.23.1
+scipy==1.4.1
+six==1.15.0
+sklearn==0.0
+threadpoolctl==2.1.0
+torch==1.5.0
+torchvision==0.6.0
+tqdm==4.47.0
